@@ -1,1 +1,9 @@
 == Python
+.Function
+[VERTICAL]
+read_csv function :: The read_csv() function doesn't automatically detect which columns contain dates. You can tell read_csv() this by giving a list of the date columns as the optional argument parse_dates. For example, if datasets/my_data.csv is a csv-file with a date column date then you can read it in like this:
+    ```python code :
+      my_df = pd.read_csv(
+        "datasets/my_data.csv", 
+        parse_dates=["date"])
+    ```
