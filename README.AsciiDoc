@@ -1,3 +1,5 @@
 == Case Study by Data Camp 
 === List
   1.Dr. Semmelweis and the Discovery of Handwashing
+  2. NETFLIX
+  
